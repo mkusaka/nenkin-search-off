@@ -1,11 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Nenkin Search Prevent Copy Remover",
+  "name": "Nenkin Prevent Copy/Paste Remover",
   "version": "1.0",
-  "description": "Remove paste prevention on nenkin search site",
+  "description": "Remove copy/paste prevention on nenkin site under /do/search_section/",
   "content_scripts": [
     {
-      "matches": ["https://www2.nenkin.go.jp/*"],
+      "matches": ["https://www2.nenkin.go.jp/do/search_section/*"],
       "js": ["content.js"],
       "run_at": "document_idle"
     }
