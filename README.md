@@ -1,6 +1,6 @@
 # Nenkin Search Prevent Copy/Paste Remover
 
-A simple Chrome extension that removes the paste prevention behavior on elements with the `.prevent-copy` class on the `https://www2.nenkin.go.jp/*` website.
+A simple Chrome extension that removes the paste prevention behavior on elements with the `.prevent-copy` class on the `https://www2.nenkin.go.jp/do/search_section/*` website.
 
 ## Purpose
 
